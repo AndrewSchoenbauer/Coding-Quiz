@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Coding Quiz</title>
+</head>
+<body>
+     <section class="mainBody">
+         <div id="frontPage">
+             <h1>Coding Quiz Challenge</h1>
+             <h2>Try to answer the following questions related to coding within the time limit</h2>
+             <h2>Answering incorrectly will penalize your score!</h2>
+             <button id="startBtn">Start Quiz</button>
+         </div>
+         <div id="codeQuiz">
+             <div id="timer">Time Left: </div>
+             <div id="quizQues"><p>Placeholder</p></div>
+             <button id="a" onclick="answerCheck('a')">A</button>
+             <button id="b" onclick="answerCheck('b')">B</button>
+             <button id="c" onclick="answerCheck('c')">C</button>
+             <button id="d" onclick="answerCheck('d')">D</button>
+             <div id="finalResult"></div>
+        </div>
+        <div id="gameFinish">
+            <div id="finalScore"></div>
+            <input
+            type="text"
+            placeholder="Enter your intitals for your score!"
+            name="initials"
+            id="initials"/>
+            <button id="submitScore">Submit</button>
+        </div>
+     </section>
+    <script  src="./assets/script.js"></script>
+</body>
+</html>

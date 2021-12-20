@@ -1,0 +1,12 @@
+:root {
+    background-color: aquamarine;
+}
+#codeQuiz {
+    display: none;
+}
+#finalResult {
+    display: none;
+}
+#gameFinish {
+    display: none;
+}
