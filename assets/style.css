@@ -1,6 +1,44 @@
 :root {
-    background-color: aquamarine;
+    background-color: rgb(97, 72, 63);
 }
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+#timer {
+    background-color: chocolate;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 30px;
+    width: 150px;
+    
+}
+.mainBody {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: auto;
+}
+#frontpage {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
 #codeQuiz {
     display: none;
 }
@@ -9,4 +47,64 @@
 }
 #gameFinish {
     display: none;
+}
+button {
+    display: inline-block;
+    border:3px solid black ;
+    border-radius: 30px;
+    background-color: chocolate;
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    margin-top: 3px;
+}
+#endbtns {
+    display: none;
+}
+#highScore {
+    height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#highscoreHead {
+        display: flex;
+        justify-content: space-around;
+        border-bottom-style: outset;
+        margin-bottom: 0.5rem;
+        background-color: coral;
+        color: #eeeeee;
+        font-family: sans-serif;
+}
+#highscore-Page {
+    /* display: none; */
+  width: 50%;
+  border: solid;
+  border-color: silver;
+  border-bottom-style: groove;
+  padding-bottom: 0.3rem;
+  background: lightsteelblue;
+}
+#highscoreInitials {
+    display: inline-block;
+    /* padding-right: 145px; */
+    font-family: sans-serif;
+    font-weight: bold;  
+}
+#highscore-Score {
+    float: right;
+  padding-right: 145px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+input {
+    /* display: block; */
+    text-align: center;
+    height: 50px;
+    width: 250px;
 }

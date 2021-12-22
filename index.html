@@ -22,10 +22,10 @@
              <button id="b" onclick="answerCheck('b')">B</button>
              <button id="c" onclick="answerCheck('c')">C</button>
              <button id="d" onclick="answerCheck('d')">D</button>
-             <div id="finalResult"></div>
+           
         </div>
         <div id="gameFinish">
-            <div id="finalScore"></div>
+            <div id="finalScore"></div> 
             <input
             type="text"
             placeholder="Enter your intitals for your score!"
@@ -33,7 +33,21 @@
             id="initials"/>
             <button id="submitScore">Submit</button>
         </div>
-     </section>
+        <div id="highScore">
+            <div id="highscore-Page">
+                <div id="highscoreHead">
+                    <h3>User Initials</h3>
+                    <h3>Score</h3>
+                </div>
+                <div id="highscoreInitials"></div>
+                <div id="highscore-Score"></div>
+             </div>
+                <div id="endbtns">
+                    <button id="replay" onclick="replayQuiz()">Play Again</button>
+                    <button id="clearHighscore" onclick="clearScore()">Clear Highscore</button>
+                </div>
+            
+    </section>
     <script  src="./assets/script.js"></script>
 </body>
 </html>
